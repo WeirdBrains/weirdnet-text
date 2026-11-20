@@ -1,6 +1,6 @@
 [package]
 name = "weirdnet-text"
-version = "0.0.0"
+version = "0.1.0"
 edition = "2024"
 rust-version = "1.99"
 description = "Toolkit-independent editing rules for one-line and multiline text fields: grapheme-aware caret movement, selection, deletion, inline completions, input-method composition and UTF-16 offsets."
