@@ -1,0 +1,17 @@
+[package]
+name = "weirdnet-text"
+version = "0.0.0"
+edition = "2024"
+rust-version = "1.99"
+description = "Toolkit-independent editing rules for one-line and multiline text fields: grapheme-aware caret movement, selection, deletion, inline completions, input-method composition and UTF-16 offsets."
+authors = ["m3talsmith <m3talsmith@gmail.com>"]
+license = "BSD-3-Clause"
+repository = "https://github.com/WeirdBrains/weirdnet-text"
+documentation = "https://docs.rs/weirdnet-text"
+readme = "README.md"
+keywords = ["text", "editing", "input", "grapheme", "weirdnet"]
+categories = ["text-editors", "gui"]
+include = ["src/**", "README.md", "CHANGELOG.md", "LICENSE"]
+
+[dependencies]
+unicode-segmentation = "1.12"
